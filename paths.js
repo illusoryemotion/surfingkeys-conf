@@ -1,6 +1,6 @@
 import path from "path"
 import { fileURLToPath } from "url"
-import platforms from "platform-folders"
+// import platforms from "platform-folders"
 
 const gulpfilePath = fileURLToPath(import.meta.url)
 
@@ -12,7 +12,7 @@ const paths = {
   favicons: "assets/favicons",
   faviconsManifest: "favicons.json",
   gulpfile: path.basename(gulpfilePath),
-  installDir: platforms.getConfigHome(),
+  installDir: "build/install/",
   srcDir: "src",
   output: "surfingkeys.js",
   pkgJson: "package.json",
