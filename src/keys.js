@@ -63,13 +63,13 @@ maps.global = [
   },
   {
     alias: "w",
-    map: "k",
+    map: "i",
     category: categories.scroll,
     description: "Scroll up",
   },
   {
     alias: "s",
-    map: "j",
+    map: "k",
     category: categories.scroll,
     description: "Scroll down",
   },
