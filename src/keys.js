@@ -6,8 +6,9 @@ import util from "./util.js"
 
 const { categories } = help
 
-const { Clipboard, Front, Hints } = api
+const { Clipboard, Front, Hints, Visual } = api
 
+window.api = api;
 // Remove undesired default mappings
 const unmaps = {
   mappings: [
